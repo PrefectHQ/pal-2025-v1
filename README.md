@@ -1,6 +1,6 @@
 # Prefect Accelerated Learning (PAL) Examples
 
-![PACC logo](./images/word.png)
+![PAL logo](./images/word.png)
 
 This repository contains hands-on lab materials for the Prefect Accelerated Learning (PAL) series—a six-part video playlist designed to help you learn the fundamentals of Prefect.
 

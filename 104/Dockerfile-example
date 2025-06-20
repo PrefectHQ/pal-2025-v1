@@ -1,7 +1,7 @@
 FROM prefecthq/prefect:3-latest
 COPY requirements.txt /opt/prefect/104/requirements.txt
 RUN python -m pip install -r requirements.txt
-COPY . /opt/prefect/pacc-2025-v1/
-WORKDIR /opt/prefect/pacc-2025-v1/
+COPY . /opt/prefect/pal-2025-v1/
+WORKDIR /opt/prefect/pal-2025-v1/
 
 
