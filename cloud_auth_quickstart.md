@@ -57,7 +57,7 @@ if __name__ == "__main__":
 Click on the link listed in the flow run logs:
 
 ```bash
-(base) ➜  prefect-pacc-2024 git:(main) python hello_world_flow.py 
+(base) ➜  prefect-pal-2024 git:(main) python hello_world_flow.py 
 09:23:52.648 | INFO    | prefect.engine - Created flow run 'noisy-frog' for flow 'hello-world'
 09:23:52.650 | INFO    | Flow run 'noisy-frog' - View at https://app.prefect.cloud/account/9b649228-0419-40e1-9e0d-44954b5c0ab6/workspace/f7fe0729-5a91-40a4-a800-4bb8c5b6a6f5/flow-runs/flow-run/ea412cbd-9878-41e6-9e36-0be279230875
 09:23:52.867 | INFO    | Flow run 'noisy-frog' - Hello world!
