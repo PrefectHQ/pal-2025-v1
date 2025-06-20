@@ -8,9 +8,9 @@ def my_flow(name: str = "World"):
 
 if __name__ == "__main__":
     my_flow.from_source(
-        source="https://github.com/PrefectHQ/pal-2025-v1.git",  # code stored in GitHub
+        source="https://github.com/PrefectHQ/pacc-2025-v1.git",  # code stored in GitHub
         entrypoint="104/local-process-deploy-remote-code.py:my_flow",
     ).deploy(
-        name="pal-local-process-deploy-remote-code",
-        work_pool_name="pal-process-pool",
+        name="pacc-local-process-deploy-remote-code",
+        work_pool_name="pacc-process-pool",
     )
