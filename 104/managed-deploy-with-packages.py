@@ -2,7 +2,7 @@ from prefect import flow
 
 if __name__ == "__main__":
     flow.from_source(
-        "https://github.com/prefecthq/pal-2025-v1.git",
+        "https://github.com/prefecthq/pacc-2025-v1.git",
         entrypoint="104/hello-pandas.py:my_table_flow",
     ).deploy(
         name="test-imports",

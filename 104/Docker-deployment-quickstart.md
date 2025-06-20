@@ -15,7 +15,7 @@ _Creating a work pool in the UI_ is recommended for your first time so you that 
     Click the `+` button:
     ![Alt text](images/create_pool_plus_button.png)
 2. Select `Docker` for the work pool type.
-3. Call your work pool something like `name-pal-work-pool`.
+3. Call your work pool something like `name-pacc-work-pool`.
 4. Check out the infrastructure configuration options, but feel free to leave them empty (default) for now.
 5. Verify this worked by running the following in your terminal:
 
@@ -28,7 +28,7 @@ _Creating a work pool in the UI_ is recommended for your first time so you that 
 6. Alternatively, you can create a work pool with the following command:
 
     ```bash
-    prefect work-pool create "my-pal-work-pool" --type docker
+    prefect work-pool create "my-pacc-work-pool" --type docker
     ```
 
 ### 2. [Start a worker](https://docs.prefect.io/latest/tutorial/workers/#start-a-worker) to poll this work pool
@@ -44,7 +44,7 @@ _Creating a work pool in the UI_ is recommended for your first time so you that 
 3. On your laptop, open up a new terminal, activate your Python environment, and type:
 
     ```bash
-    prefect worker start --pool my-pal-work-pool
+    prefect worker start --pool my-pacc-work-pool
     ```
 
 4. Keep this terminal process running for as long as you want to run deployments on your laptop.
@@ -69,11 +69,11 @@ _Creating a work pool in the UI_ is recommended for your first time so you that 
 
     if __name__ == "__main__":
         my_flow.deploy(
-            name="taylor-pal-deployment", # add your name and 'pal'
-            work_pool_name="my-pal-work-pool", # work pool you created earlier
-            image="my-first-deployment-image:pal", # name this whatever you like
+            name="taylor-pacc-deployment", # add your name and 'pacc'
+            work_pool_name="my-pacc-work-pool", # work pool you created earlier
+            image="my-first-deployment-image:pacc", # name this whatever you like
             push=False,
-            tags=["pal", "taylor"], # add tags
+            tags=["pacc", "taylor"], # add tags
             interval=3000 # schedule
         )
     ```
