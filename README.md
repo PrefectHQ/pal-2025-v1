@@ -11,4 +11,4 @@ Each folder in this repo corresponds to a PAL module (101-106) and includes exam
 📺 Follow along with the full video series on YouTube:
 [Watch the PAL playlist here](https://youtube.com/playlist?list=PLZfWmQS5hVzFBrwj2k4WGxelQtKrNyAwo&feature=shared)
 
-Note: refer to the installation guide in the [Prefect Docs](https://docs.prefect.io/v3/get-started/install) if you have any issues getting your environment set up. This repository works with Prefect 3.
+Note: refer to the installation guide in the [Prefect docs](https://docs.prefect.io/v3/get-started/install) if you have any issues getting your environment set up. This repository works with Prefect 3.
