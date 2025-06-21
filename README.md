@@ -1,6 +1,6 @@
 # Prefect Accelerated Learning (PAL) Labs
 
-Welcome to the repository for the **Prefect Accelerated Learning (PAL)** program — a six-part video series designed to help you quickly gain confidence with Prefect through a mix of guided lessons and interactive examples.
+Welcome to the repository for the **Prefect Accelerated Learning (PAL)** program — a six-part series designed to help you quickly gain confidence with Prefect through a mix of guided lessons and interactive examples.
 
 Each module in this repository corresponds to a video in the PAL series and contains code samples that reinforce key concepts such as:
 
