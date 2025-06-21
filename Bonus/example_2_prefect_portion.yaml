@@ -7,7 +7,7 @@ deployments:
           interval: 600
       pull:
           - prefect.deployments.steps.git_clone:
-                repository: https://github.com/PrefectHQ/pacc-2025-v1.git
+                repository: https://github.com/PrefectHQ/pal-2025-v1.git
                 branch: prod
                 access_token: "{{prefect.blocks.secret.gh-secret}}"
 
@@ -17,5 +17,5 @@ deployments:
           name: staging-pool
       pull:
           - prefect.deployments.steps.git_clone:
-                repository: https://github.com/PrefectHQ/pacc-2025-v1.git
+                repository: https://github.com/PrefectHQ/pal-2025-v1.git
                 branch: staging
