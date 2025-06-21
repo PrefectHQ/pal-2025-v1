@@ -19,12 +19,5 @@ Each module in this repository corresponds to a video in the PAL series and cont
 ---
 
 ## Getting Started
-
-Each module folder includes:
-
-- `README.md`: Instructions for running the examples
-- `.py` scripts: Sample flows and supporting components
-- Requirements where needed for individual labs
-
 To run the examples, make sure you have Python 3.9+ installed, along with Prefect.
 You can find installation instructuions [here](https://docs.prefect.io/v3/get-started/install).
