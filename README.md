@@ -33,7 +33,7 @@ Any code editor you are comfortable with is fine.
 We strongly recommend using a virtual environment to isolate your project dependencies. You can use any of the following tools:
 
 - **`uv`** – A modern Python package manager with fast environment creation  
-  [Set up a `uv` environment →](https://docs.astral.sh/uv/guides/environments/)
+  [Set up a `uv` environment →](https://docs.astral.sh/uv/getting-started/installation/)
 
 - **`venv`** – Python’s built-in virtual environment tool  
   [Official `venv` docs →](https://docs.python.org/3/library/venv.html)  
