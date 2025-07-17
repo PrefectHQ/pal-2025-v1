@@ -33,14 +33,13 @@ Any code editor you are comfortable with is fine.
 We strongly recommend using a virtual environment to isolate your project dependencies. You can use any of the following tools:
 
 - **`uv`** – A modern Python package manager with fast environment creation  
-  [Set up a `uv` environment →](https://docs.astral.sh/uv/getting-started/installation/)
+  [Set up a `uv` environment](https://docs.astral.sh/uv/getting-started/installation/)
 
 - **`venv`** – Python’s built-in virtual environment tool  
-  [Official `venv` docs →](https://docs.python.org/3/library/venv.html)  
-  [Real Python guide →](https://realpython.com/python-virtual-environments-a-primer/)
+  [Official `venv` docs](https://docs.python.org/3/library/venv.html)  
 
 - **`conda`** – A popular environment and package manager, especially in data science workflows  
-  [Manage environments with `conda` →](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+  [Manage environments with `conda`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 Make sure you have **Python 3.9 or newer** installed in your environment.
 
