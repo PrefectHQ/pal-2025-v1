@@ -20,4 +20,4 @@ Each module in this repository corresponds to a video in the PAL series and cont
 
 ## Getting Started
 To run the examples, make sure you have Python 3.9+ installed, along with Prefect.
-You can find installation instructuions [here](https://docs.prefect.io/v3/get-started/install).
+You can find installation instructions [here](https://docs.prefect.io/v3/get-started/install).
